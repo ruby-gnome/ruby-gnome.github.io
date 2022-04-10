@@ -1,5 +1,7 @@
 # The source of https://ruby-gnome.github.io/
 
+![logo](https://avatars1.githubusercontent.com/u/416159)
+
 ## License
 
 Copyright (c)  2003-2022  Ruby-GNOME Project.
