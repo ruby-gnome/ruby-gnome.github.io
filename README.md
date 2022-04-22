@@ -1,5 +1,10 @@
 # The source of https://ruby-gnome.github.io/
 
+```diff
+- The old wiki has been lost.
++ Here is the new page.
+```
+
 ![logo](https://github.com/ruby-gnome/ruby-gnome/blob/master/gtk3/sample/gtk-demo/ruby-gnome2-logo.png)
 
 ## API Rerefence
