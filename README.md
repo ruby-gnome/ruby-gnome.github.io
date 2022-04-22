@@ -2,6 +2,11 @@
 
 ![logo](https://github.com/ruby-gnome/ruby-gnome/blob/master/gtk3/sample/gtk-demo/ruby-gnome2-logo.png)
 
+## API Rerefence
+
+* [dev](https://ruby-gnome.github.io/ruby-gnome/doc/dev/)
+* [latest](https://ruby-gnome.github.io/ruby-gnome/doc/latest/)
+
 ## License
 
 Copyright (c)  2003-2022  Ruby-GNOME Project.
