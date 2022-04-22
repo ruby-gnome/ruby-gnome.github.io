@@ -1,6 +1,6 @@
 # The source of https://ruby-gnome.github.io/
 
-![logo](https://avatars1.githubusercontent.com/u/416159)
+![logo](https://github.com/ruby-gnome/ruby-gnome/blob/master/gtk3/sample/gtk-demo/ruby-gnome2-logo.png)
 
 ## License
 
