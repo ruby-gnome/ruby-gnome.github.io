@@ -119,7 +119,7 @@ style D fill:#0F0
 
 （1）TypeLibを作る
 
-利用したいC言語のソースコードから、g-ir-scannerコマンドおよびg-ir-compilerコマンドを使ってTypeLibファイルを作ります。
+利用したいライブラリのTypeLibを用意します（GObjectを使っているC言語のライブラリはTypeLibを提供していますが、そうでない場合はg-ir-scannerコマンドおよびg-ir-compilerコマンドを使ってTypeLibファイルを作ります）。
 
 
 
