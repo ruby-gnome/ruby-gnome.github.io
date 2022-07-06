@@ -78,7 +78,7 @@ XML形式のファイルは機械的に扱いにくいため、さらに、g-ir-
 
 （2）実行時
 
-実行時、すなわち、GObjectを採用したライブラリを呼び出したい側では、そのプログラムにGObject Introspectionで提供される「libgirepository」と「libffi」というライブラリを組み込みます。libgrepositoryがTypeLibを読み込んでメタデータを取得するライブラリ、libffiが読み込んだメタデータから呼び出し関数のインターフェースを作るライブラリです。
+実行時、すなわち、GObjectを採用したライブラリを呼び出したい側では、そのプログラムに「libgirepository」と「libffi」というライブラリを組み込みます。libgrepositoryがTypeLibを読み込んでメタデータを取得するライブラリ、libffiはその関数を呼び出すためのライブラリです。
 
 
 
