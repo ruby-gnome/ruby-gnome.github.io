@@ -145,10 +145,6 @@ libgirrepositoryとlibffiを利用してTypeLibに書かれた関数を呼び出
 
 
 
-＠Ruby/GObjectIntrospetionという名前でよいか検討＠
-
-
-
 ここでは・・・・
 
 
