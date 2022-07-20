@@ -78,7 +78,7 @@ XML形式のファイルをそのまま扱うと、パフォーマンスが悪�
 
 （2）実行時
 
-実行時、すなわち、GObjectを採用したライブラリを呼び出したい側では、そのプログラムに「libgirepository」と「libffi」というライブラリを組み込みます。libgrepositoryがTypeLibを読み込んでメタデータを取得するライブラリ、libffiはその関数を呼び出すためのライブラリです。
+実行時、すなわち、GObjectを採用したライブラリを呼び出したい側では、そのプログラムに「libgirepository」と「libffi」というライブラリを組み込みます。libgrepositoryがTypelibを読み込んでメタデータを取得するライブラリ、libffiはその関数を呼び出すためのライブラリです。
 
 
 
@@ -117,19 +117,19 @@ style D fill:#0F0
 
 
 
-（1）TypeLibを作る
+（1）Typelibを作る
 
-利用したいライブラリのTypeLibを用意します（GObjectを使っているC言語のライブラリはTypeLibを提供していますが、そうでない場合はg-ir-scannerコマンドおよびg-ir-compilerコマンドを使ってTypeLibファイルを作ります）。
+利用したいライブラリのTypelibを用意します（GObjectを使っているC言語のライブラリはTypelibを提供していますが、そうでない場合はg-ir-scannerコマンドおよびg-ir-compilerコマンドを使ってTypelibファイルを作ります）。
 
 
 
 （2）libgirrepositoryとlibffiを利用した呼び出しコードを書く
 
-（1）のTypeLibファイルを読み込んで、関数を呼び出すコードを書きます。このコードには、libgirrepositoryとlibffiが必要です。
+（1）のTypelibファイルを読み込んで、関数を呼び出すコードを書きます。このコードには、libgirrepositoryとlibffiが必要です。
 
 
 
-（2）の処理では、読み込んだTypeLibによって動的に関数が作られます。すなわち、利用するライブラリや関数によって処理を変える必要はありません。使いたいライブラリのTypeLibを作って入れ替えれば、（2）の処理を変更することなく汎用的に利用できます。
+（2）の処理では、読み込んだTypelibによって動的に関数が作られます。すなわち、利用するライブラリや関数によって処理を変える必要はありません。使いたいライブラリのTypelibを作って入れ替えれば、（2）の処理を変更することなく汎用的に利用できます。
 
 
 
@@ -141,7 +141,7 @@ Ruby-GNOMEでは、いま説明したGObject Introspectionを利用して、GNOM
 
 ### GObject Introspectionの部分
 
-libgirrepositoryとlibffiを利用してTypeLibに書かれた関数を呼び出すための処理は、Ruby/GObjectIntrospectionにあります（https://github.com/ruby-gnome/ruby-gnome/tree/master/gobject-introspection）。
+libgirrepositoryとlibffiを利用してTypelibに書かれた関数を呼び出すための処理は、Ruby/GObjectIntrospectionにあります（https://github.com/ruby-gnome/ruby-gnome/tree/master/gobject-introspection）。
 
 
 
@@ -155,13 +155,13 @@ libgirrepositoryとlibffiを利用してTypeLibに書かれた関数を呼び出
 
 
 
-### TypeLibの作成
+### Typelibの作成
 
-これで呼び出すための仕組みはできましたが、実際に呼び出すには、TypeLibが必要です。TypeLibは、・・・・のようにして作ります。
+これで呼び出すための仕組みはできましたが、実際に呼び出すには、Typelibが必要です。Typelibは、・・・・のようにして作ります。
 
 
 
-ToDo：TypeLibの作り方についての解説
+ToDo：Typelibの作り方についての解説
 
 
 
@@ -179,7 +179,7 @@ GObjectIntrospectionを使うと、次のようにしてGNOME関数を呼び出�
 
 ### Rubyらしく呼び出せるようにする
 
-これでTypeLibさえあれば、Rubyから任意のC言語の関数が呼び出せるようになりました。しかしこうした呼び出しは、Rubyらしくありません。
+これでTypelibさえあれば、Rubyから任意のC言語の関数が呼び出せるようになりました。しかしこうした呼び出しは、Rubyらしくありません。
 
 先の例では、
 
@@ -217,9 +217,9 @@ ToDo：ラップする方法について詳しく解説
 
 
 
-（1）TypeLibを作る
+（1）Typelibを作る
 
-ToDo：どうやってTypeLibを作って、どこに置くとかを記載
+ToDo：どうやってTypelibを作って、どこに置くとかを記載
 
 
 
