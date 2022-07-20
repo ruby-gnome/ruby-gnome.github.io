@@ -78,7 +78,7 @@ XML形式のファイルをそのまま扱うと、パフォーマンスが悪�
 
 （2）実行時
 
-実行時、すなわち、GObjectを採用したライブラリを呼び出したい側では、そのプログラムに「libgirepository」と「libffi」というライブラリを組み込みます。libgrepositoryがTypelibを読み込んでメタデータを取得するライブラリ、libffiはその関数を呼び出すためのライブラリです。
+実行時、すなわち、GObjectを採用したライブラリを呼び出したい側では、そのプログラムに「libgirepository」と「libffi」というライブラリを組み込みます。libgrepositoryはTypelibを読み込んでメタデータを取得するライブラリ、libffiはGObjectを採用したライブラリの関数そのものを呼び出すためのライブラリです。
 
 
 
