@@ -119,7 +119,7 @@ style D fill:#0F0
 
 （1）Typelibを作る
 
-利用したいライブラリのTypelibを用意します（GObjectを使っているC言語のライブラリはTypelibを提供していますが、そうでない場合はg-ir-scannerコマンドおよびg-ir-compilerコマンドを使ってTypelibファイルを作ります）。
+利用したいライブラリのTypelibを用意します。
 
 
 
