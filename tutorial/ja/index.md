@@ -56,9 +56,9 @@ Ruby-GNOMEは両者のメリットを採り入れ、自動生成したものに�
 
 ## GObject Introspection
 
-GNOMEは、GObject（https://docs.gtk.org/gobject/）というライブラリを使って開発されています。このライブラリは、C言語でオブジェクト志向プログラミングをできるようにするものです。
+GNOMEは、[GObject](https://docs.gtk.org/gobject/)というライブラリを使って開発されています。このライブラリは、C言語でオブジェクト志向プログラミングをできるようにするものです。
 
-GObjectは実行時に、オブジェクトのクラス名やメソッド名、プロパティ名、enumの値リストなどのメタデータを取得できるという特徴があります。この特徴を利用して、メタデータを取得することで、他の言語とGObjectを採用したライブラリとの橋渡しをするのが、GObject Introspection（https://gi.readthedocs.io/）というミドルレイヤーです。
+GObjectは実行時に、オブジェクトのクラス名やメソッド名、プロパティ名、enumの値リストなどのメタデータを取得できるという特徴があります。この特徴を利用して、メタデータを取得することで、他の言語とGObjectを採用したライブラリとの橋渡しをするのが、[GObject Introspection](https://gi.readthedocs.io/)というミドルレイヤーです。
 
 
 
@@ -141,7 +141,7 @@ Ruby-GNOMEでは、いま説明したGObject Introspectionを利用して、GNOM
 
 ### GObject Introspectionの部分
 
-libgirrepositoryとlibffiを利用してTypelibに書かれた関数を呼び出すための処理は、Ruby/GObjectIntrospectionにあります（https://github.com/ruby-gnome/ruby-gnome/tree/master/gobject-introspection）。
+libgirrepositoryとlibffiを利用してTypelibに書かれた関数を呼び出すための処理は、[Ruby/GObjectIntrospection](https://github.com/ruby-gnome/ruby-gnome/tree/master/gobject-introspection)にあります。
 
 
 
