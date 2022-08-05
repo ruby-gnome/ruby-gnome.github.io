@@ -56,7 +56,7 @@ Ruby-GNOMEは両者のメリットを採り入れ、自動生成したものに�
 
 ## GObject Introspection
 
-GNOMEは、[GObject](https://docs.gtk.org/gobject/)というライブラリを使って開発されています。このライブラリは、C言語でオブジェクト志向プログラミングをできるようにするものです。
+GNOMEは、[GObject](https://docs.gtk.org/gobject/)というライブラリを使って開発されています。このライブラリは、C言語でオブジェクト指向プログラミングをできるようにするものです。
 
 GObjectは実行時に、オブジェクトのクラス名やメソッド名、プロパティ名、enumの値リストなどのメタデータを取得できるという特徴があります。この特徴を利用して、メタデータを取得することで、他の言語とGObjectを採用したライブラリとの橋渡しをするのが、[GObject Introspection](https://gi.readthedocs.io/)というミドルレイヤーです。
 
