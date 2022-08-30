@@ -7,6 +7,10 @@
 * [dev](https://ruby-gnome.github.io/ruby-gnome/doc/dev/)
 * [latest](https://ruby-gnome.github.io/ruby-gnome/doc/latest/)
 
+## Source Code
+
+- [GitHub](https://github.com/ruby-gnome/ruby-gnome)
+
 ## License
 
 Copyright (c)  2003-2022  Ruby-GNOME Project.
