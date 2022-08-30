@@ -9,7 +9,7 @@
 
 ## Open source
 
-- [Github](https://github.com/ruby-gnome/ruby-gnome)
+- [GitHub](https://github.com/ruby-gnome/ruby-gnome)
 
 ## License
 
