@@ -7,7 +7,7 @@
 * [dev](https://ruby-gnome.github.io/ruby-gnome/doc/dev/)
 * [latest](https://ruby-gnome.github.io/ruby-gnome/doc/latest/)
 
-## Open source
+## Source Code
 
 - [GitHub](https://github.com/ruby-gnome/ruby-gnome)
 
